@@ -19,6 +19,7 @@
     <section class="nav-section">
       <nav id="topNav" class="navbar nav">
         <div class="container">
+          
           <button class="navbar-toogle" aria-expanded="false" aria-controls="navbarDropdown">
             <span>&#9776;</span>
           </button>
@@ -43,11 +44,37 @@
 
     <section class="we-are">
       <div class="container">
+        <img class="parkway-sign" src="./images/parkway plaza sign.jpg">
         <h1 class="headline">Who We Are</h1>
         <div class="basic-information"> 
-          We are the first and only tenant union in Fairfield, California! Our purpose is to improve the lives of the residents of Parkway Plaza, this purpose is being accomplished by our bylaws.
+          We are the first and only tenant union in Fairfield, California! Our purpose is to improve the lives of the residents of Parkway Plaza, this purpose is being accomplished by our bylaws:
+        </div>
+
+        <div class="bylaws">
+          <ol>
+            <li>Representing all residents in matters which affect their common interests, rights, status, and duties.</li>
+            <li>Providing input to the management of Parkway Plaza on matters that impact residents including, but not limited to, maintenance, modernization, management policies and procedures, Capital Improvement Planes, Annual Plans, Operating Budgets, and resident services.</li>
+            <li>Seeking a mutually respectful working relationship with management and other organizations that have a role in the operation, management, and development of residents' housing.</li>
+            <li>Fostering a sense of community among residents, keeping residents informed about the Association, and maintaining a viable resident association.</li>
+            <li>Educating residents about their rights and responsibilities.</li>
+            <li>Advocating for residents who seek and need the assistance of the association.</li>
+            <li>Providing activities that encourage socialization and wellbeing.</li>
+          </ol>
         </div>
       </div>
     </section>
+
+
+
+    <script>
+      const nav = document.getElementById("topNav");
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add("sticky")
+        } else {
+          nav.classList.remove("sticky");
+        }
+      }
+    </script>
   </body>
 </html>
