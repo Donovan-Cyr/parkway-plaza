@@ -1,0 +1,69 @@
+.navbar-nav a { color: var(--blue); }
+
+h1 {
+  font-size: 50px;
+  margin: 10px auto;
+  text-align: center;
+  padding-top: 30px;
+  color: var(--parkway-dark);
+}
+
+.text {
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+h2 {
+  font-size: 45px;
+  margin: 50px auto 0px;
+  text-align: center;
+  color: var(--parkway-light);
+}
+
+h3 {
+  font-size: 35px;
+  margin: 10px auto;
+  text-align: center;
+  color: var(--parkway-light);
+}
+
+.karen-vittorio h2, 
+.karen-vittorio h3 {
+  color: var(--blue);
+}
+
+.lou-cyr h2, 
+.lou-cyr h3 {
+  color: var(--purple);
+}
+
+.susanne-roberts h2, 
+.susanne-roberts h3 {
+  color: var(--pink);
+}
+
+.murle-pitts h2, 
+.murle-pitts h3 {
+  color: var(--red);
+}
+
+.ivonne-sorto h2, 
+.ivonne-sorto h3 {
+  color: var(--orange);
+}
+
+.rebecca-morrow h2, 
+.rebecca-morrow h3 {
+  color: var(--green);
+}
+
+.nicholas-gainey h2, 
+.nicholas-gainey h3 {
+  color: var(--blue);
+}
+
+.cody-mott h2, 
+.cody-mott h3 {
+  color: var(--purple);
+}

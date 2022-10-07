@@ -70,4 +70,12 @@ nav .logo { width: 350px; }
   margin-right: auto;
   text-align: center;
   font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bylaws {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 30px;
 }

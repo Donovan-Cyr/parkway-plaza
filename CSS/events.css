@@ -1,0 +1,14 @@
+.navbar-nav a { color: var(--purple); }
+
+div.calendar {
+  width: 100%;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
