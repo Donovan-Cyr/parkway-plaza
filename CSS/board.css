@@ -1,31 +1,8 @@
 .navbar-nav a { color: var(--blue); }
 
-h1 {
-  font-size: 50px;
-  margin: 10px auto;
-  text-align: center;
-  padding-top: 30px;
-  color: var(--parkway-dark);
-}
-
-.text {
-  font-size: 20px;
-  color: grey;
-  text-align: center;
-}
-
-h2 {
-  font-size: 45px;
-  margin: 50px auto 0px;
-  text-align: center;
-  color: var(--parkway-light);
-}
-
-h3 {
-  font-size: 35px;
-  margin: 10px auto;
-  text-align: center;
-  color: var(--parkway-light);
+.bg-header {
+  background-image: url("../images/people\ semi\ circle.jpg"); 
+  padding: 350px 0;
 }
 
 .karen-vittorio h2, 

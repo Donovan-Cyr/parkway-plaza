@@ -16,10 +16,8 @@
   </head>
 
   <body>
-    <section class="nav-section">
       <nav id="topNav" class="navbar nav">
         <div class="container">
-          
           <button class="navbar-toogle" aria-expanded="false" aria-controls="navbarDropdown">
             <span>&#9776;</span>
           </button>
@@ -38,20 +36,23 @@
               <li><a href="./pages/gallery.html">Gallery</a></li>
             </ul>
           </div>
-
         </div>
       </nav>
-    </section>
+
+      <header class="bg-header"> </header>
 
     <section class="we-are">
       <div class="container">
-        <img class="parkway-sign" src="./images/parkway plaza sign.jpg">
+        <!-- <img class="parkway-sign" src="./images/parkway plaza sign.jpg"> -->
         <h1 class="headline">Who We Are</h1>
-        <div class="basic-information"> 
+        <div class="basic-information text"> 
           We are the first and only tenant union in Fairfield, California! Our purpose is to improve the lives of the residents of Parkway Plaza, this purpose is being accomplished by our bylaws:
         </div>
 
-        <div class="bylaws">
+        <br><br><hr>
+
+        <div class="bylaws text">
+          <h2>Our Bylaws</h2>
           <ol>
             <li>Representing all residents in matters which affect their common interests, rights, status, and duties. <br> <br> </li>
             <li>Providing input to the management of Parkway Plaza on matters that impact residents including, but not limited to, maintenance, modernization, management policies and procedures, Capital Improvement Plans, Annual Plans, Operating Budgets, and resident services. <br> <br> </li>
@@ -67,15 +68,6 @@
 
 
 
-    <script>
-      const nav = document.getElementById("topNav");
-      window.onscroll = function () {
-        if (window.pageYOffset > 100) {
-          nav.classList.add("sticky")
-        } else {
-          nav.classList.remove("sticky");
-        }
-      }
-    </script>
+    <script src="../default.js" type="text/javascript"></script>
   </body>
 </html>

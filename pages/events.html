@@ -17,50 +17,44 @@
   </head>
 
   <body>
-    <section class="nav-section">
-      <nav id="topNav" class="navbar nav">
-        <div class="container">
-          
-          <button class="navbar-toogle" aria-expanded="false" aria-controls="navbarDropdown">
-            <span>&#9776;</span>
-          </button>
-          <img
-            src="../images/Logo with tagline transparent.png"
-            alt="Parkway Plaza Tenant Union"
-            class="logo"
-          >
-
-          <div class="nav-mobile">
-            <ul class="navbar-nav">
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="../pages/board.html">Board Members</a></li>
-              <li><a href="../pages/events.html">Events and Contact</a></li>
-              <li><a href="../pages/todo.html">Our To-Do List</a></li>
-              <li><a href="../pages/gallery.html">Gallery</a></li>
-            </ul>
-          </div>
-
+    <nav id="topNav" class="navbar nav">
+      <div class="container">
+        
+        <button class="navbar-toogle" aria-expanded="false" aria-controls="navbarDropdown">
+          <span>&#9776;</span>
+        </button>
+        <img
+          src="../images/Logo with tagline transparent.png"
+          alt="Parkway Plaza Tenant Union"
+          class="logo"
+        >
+        <div class="nav-mobile">
+          <ul class="navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/board.html">Board Members</a></li>
+            <li><a href="../pages/events.html">Events and Contact</a></li>
+            <li><a href="../pages/todo.html">Our To-Do List</a></li>
+            <li><a href="../pages/gallery.html">Gallery</a></li>
+          </ul>
         </div>
-      </nav>
-    </section>
+      </div>
+    </nav>
+
+    <header class="bg-header"></header>
 
     <section class="calender">
       <div class="container">
+        <h1>Events and Meetings</h1>
+        <div class="text">This calendar shows all of our currently planned events as well as past events. This page also houses the contact information to reach out to the board to bring up any concerns.</div>
+
+        <br><br><hr>
+
         <div class="calender"><iframe src="https://calendar.google.com/calendar/embed?src=obq4p3543oqrkkgn9167efh944%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
       </div>
     </section>
 
 
 
-    <script>
-      const nav = document.getElementById("topNav");
-      window.onscroll = function () {
-        if (window.pageYOffset > 100) {
-          nav.classList.add("sticky")
-        } else {
-          nav.classList.remove("sticky");
-        }
-      }
-    </script>
+    <script src="../default.js" type="text/javascript"></script>
   </body>
 </html>

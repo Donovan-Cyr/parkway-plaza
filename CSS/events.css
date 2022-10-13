@@ -1,5 +1,10 @@
 .navbar-nav a { color: var(--purple); }
 
+.bg-header {
+  background-image: url("../images/calendar.jpg");
+  padding: 350px 0;
+}
+
 div.calendar {
   width: 100%;
   padding: 0px;
@@ -8,7 +13,6 @@ div.calendar {
 }
 
 iframe {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto;
   width: 100%;
 }

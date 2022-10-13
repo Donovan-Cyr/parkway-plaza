@@ -1,1 +1,6 @@
 .navbar-nav a { color: var(--red); }
+
+.bg-header {
+  background-image: url("../images/photo-album.jpg"); 
+  padding: 350px 0;
+}
